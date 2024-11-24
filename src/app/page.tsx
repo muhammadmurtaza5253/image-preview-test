@@ -1,95 +1,54 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import React from "react";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+    <div
+      style={{
+        fontFamily: "Arial, sans-serif",
+        color: "#333",
+        lineHeight: "1.6",
+      }}
+    >
+      {/* Header */}
+      <header
+        style={{
+          padding: "1rem",
+          backgroundColor: "#282c34",
+          color: "#fff",
+          textAlign: "center",
+        }}
+      >
+        <h1>Welcome to My Page</h1>
+      </header>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
+      {/* Content */}
+      <main style={{ padding: "2rem", textAlign: "center" }}>
+        <p>
+          This is a simple one-page design created with React and TypeScript.
+        </p>
+        <div style={{ marginBottom: "10px" }}></div>
+        <img src="https://fastly.picsum.photos/id/119/200/300.jpg?hmac=1NqHBHR5JDtc_FgBO6wYZJYAWBRIPfgNbRoiqVQ5m-k"></img>
+        <div style={{ marginBottom: "10px" }}></div>
+        <img src = "https://picsum.photos/200"></img>
+        <div style={{marginBottom: '10px'}}></div>
+        <p style={{textAlign: 'center', color:'white'}}>This website is created for sole purpose of testing the link sharing service.</p>
       </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+
+      {/* Footer */}
+      <footer
+        style={{
+          padding: "1rem",
+          backgroundColor: "#282c34",
+          color: "#fff",
+          textAlign: "center",
+        }}
+      >
+        <p>© 2024 My Simple Page</p>
       </footer>
     </div>
+    </>
   );
-}
+};
+
+export default Home;

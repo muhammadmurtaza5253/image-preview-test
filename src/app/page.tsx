@@ -1,31 +1,12 @@
 import React from "react";
+import RootLayout from "./layout";
 
 const Home: React.FC = () => {
   return (
-    <>
+    <RootLayout>
       {/* Meta Tags */}
       <div style={{ display: "none" }}>
-        <meta property="og:title" content="Amazing Image Preview" />
-        <meta property="og:description" content="Check out this amazing image!" />
-        <meta
-          property="og:image"
-          content="https://fastly.picsum.photos/id/0/800/600.jpg?hmac=qRIxZPb6D3nnquI4AQ4xTVwhTvVx1FL3Pdm29Jz61fQ"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:url" content="https://example.com" />
-        <meta property="og:type" content="website" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Amazing Image Preview" />
-        <meta
-          name="twitter:description"
-          content="Check out this amazing image!"
-        />
-        <meta
-          name="twitter:image"
-          content="https://fastly.picsum.photos/id/119/200/300.jpg?hmac=1NqHBHR5JDtc_FgBO6wYZJYAWBRIPfgNbRoiqVQ5m-k"
-        />
+       
       </div>
 
       {/* Page Content */}
@@ -79,7 +60,7 @@ const Home: React.FC = () => {
           <p>© 2024 My Simple Page</p>
         </footer>
       </div>
-    </>
+    </RootLayout>
   );
 };
 

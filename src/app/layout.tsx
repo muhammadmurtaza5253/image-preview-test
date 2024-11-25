@@ -39,9 +39,11 @@ export default function RootLayout({
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
           crossOrigin="anonymous"
         />
-        <Script>
-          const largeData = "A".repeat(50000);
-          console.log("Large script loaded successfully", largeData);
+        <Script id="large-data-script">
+          {`
+            const largeData = "A".repeat(50000);
+            console.log("Large script loaded successfully", largeData);
+          `}
         </Script>
         <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"

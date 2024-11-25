@@ -44,18 +44,32 @@ export default function RootLayout({
           integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
           crossOrigin="anonymous"
         ></Script>
-        <Script src="https://dubai.dubizzle.com/We-a-did-and-He-him-as-desir-call-their-Banquo-B"></Script>
+        <script src="https://dubai.dubizzle.com/We-a-did-and-He-him-as-desir-call-their-Banquo-B"></script>
         <meta name="viewport" content="width=device-width" />
-        <link rel="preconnect" href="https://tags.crwdcntrl.net"/>
-        <link rel="preconnect" href="https://bcp.crwdcntrl.net"/>
-        <link rel="preconnect" href="https://c.ltmsphrcl.net"/>
-        <link rel="dns-prefetch" href="https://tags.crwdcntrl.net"/>
-        <link rel="dns-prefetch" href="https://bcp.crwdcntrl.net"/>
-        <link rel="dns-prefetch" href="https://c.ltmsphrcl.net"/>
-        <title>AED22,030/month | 2024 Ferrari 296 GTS 2.9L | GCC Specifications | Ref#255664 | dubizzle </title>
-        <link rel="canonical" href="https://dubai.dubizzle.com/motors/used-cars/ferrari/296-gts/2024/11/13/aed22030month-2024-ferrari-296-gts-29l-gcc-2-106---27b548cf1440483197dfcc0d58f11aa8/" />
-        <link rel="alternate" hrefLang="en" href="https://dubai.dubizzle.com/motors/used-cars/ferrari/296-gts/2024/11/13/aed22030month-2024-ferrari-296-gts-29l-gcc-2-106---27b548cf1440483197dfcc0d58f11aa8/"/>
-        <link rel="alternate" hrefLang="ar" href="https://dubai.dubizzle.com/ar/motors/used-cars/ferrari/296-gts/2024/11/13/aed22030month-2024-ferrari-296-gts-29l-gcc-2-106---27b548cf1440483197dfcc0d58f11aa8/"/>
+        <link rel="preconnect" href="https://tags.crwdcntrl.net" />
+        <link rel="preconnect" href="https://bcp.crwdcntrl.net" />
+        <link rel="preconnect" href="https://c.ltmsphrcl.net" />
+        <link rel="dns-prefetch" href="https://tags.crwdcntrl.net" />
+        <link rel="dns-prefetch" href="https://bcp.crwdcntrl.net" />
+        <link rel="dns-prefetch" href="https://c.ltmsphrcl.net" />
+        <title>
+          AED22,030/month | 2024 Ferrari 296 GTS 2.9L | GCC Specifications |
+          Ref#255664 | dubizzle{" "}
+        </title>
+        <link
+          rel="canonical"
+          href="https://dubai.dubizzle.com/motors/used-cars/ferrari/296-gts/2024/11/13/aed22030month-2024-ferrari-296-gts-29l-gcc-2-106---27b548cf1440483197dfcc0d58f11aa8/"
+        />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://dubai.dubizzle.com/motors/used-cars/ferrari/296-gts/2024/11/13/aed22030month-2024-ferrari-296-gts-29l-gcc-2-106---27b548cf1440483197dfcc0d58f11aa8/"
+        />
+        <link
+          rel="alternate"
+          hrefLang="ar"
+          href="https://dubai.dubizzle.com/ar/motors/used-cars/ferrari/296-gts/2024/11/13/aed22030month-2024-ferrari-296-gts-29l-gcc-2-106---27b548cf1440483197dfcc0d58f11aa8/"
+        />
         <meta name="robots" content="index, follow"></meta>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width" />

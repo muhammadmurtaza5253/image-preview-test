@@ -27,11 +27,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossOrigin="anonymous" />
-        <Script type="text/javascript" src="scripts/large-script.js"></Script>
-        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossOrigin="anonymous"></Script>
-        <meta charSet="utf-8" /><meta name="viewport" content="width=device-width" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossOrigin="anonymous"
+        />
+        <Script>
+          const largeData = "A".repeat(50000);
+          console.log("Large script loaded successfully", largeData);
+        </Script>
+        <Script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossOrigin="anonymous"
+        ></Script>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width" />
         <link rel="preconnect" href="https://tags.crwdcntrl.net" />
         <link rel="preconnect" href="https://bcp.crwdcntrl.net" />
         <link rel="preconnect" href="https://c.ltmsphrcl.net" />
@@ -39,7 +57,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://bcp.crwdcntrl.net" />
         <link rel="dns-prefetch" href="https://c.ltmsphrcl.net" />
         <meta property="og:title" content="Amazing Image Preview" />
-        <meta property="og:description" content="Check out this amazing image!" />
+        <meta
+          property="og:description"
+          content="Check out this amazing image!"
+        />
         <meta
           property="og:image"
           content="https://fastly.picsum.photos/id/0/800/600.jpg?hmac=qRIxZPb6D3nnquI4AQ4xTVwhTvVx1FL3Pdm29Jz61fQ"

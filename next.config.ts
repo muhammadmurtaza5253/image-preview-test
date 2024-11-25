@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: 'Content-Type',
-            value: 'text/html;', // Default Content-Type for HTML responses
+            value: 'text/html', // Default Content-Type for HTML responses
           },
         ],
       },

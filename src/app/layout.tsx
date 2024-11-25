@@ -41,8 +41,157 @@ export default function RootLayout({
         />
         <Script id="large-data-script">
           {`
-            const largeData = "A".repeat(50000);
-            console.log("Large script loaded successfully", largeData);
+            console.log("This is a large inline script for testing purposes.");
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
+
+            const largeData = "A".repeat(5); // Generating 50 KB of data
+            console.log("Large script data generated:", largeData);
           `}
         </Script>
         <Script

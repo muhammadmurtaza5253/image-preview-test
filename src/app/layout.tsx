@@ -40,7 +40,7 @@ export default function RootLayout({
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
           crossOrigin="anonymous"
         />
-        <Script id="large-data-script">
+        <script id="large-data-script">
           {`
             console.log("This is a large inline script for testing purposes.");
 
@@ -194,7 +194,7 @@ export default function RootLayout({
             const largeData = "A".repeat(5); // Generating 50 KB of data
             console.log("Large script data generated:", largeData);
           `}
-        </Script>
+        </script>
         <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
           integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
